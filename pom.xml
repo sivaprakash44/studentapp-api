@@ -134,7 +134,7 @@
    		</snapshotRepository>
 		<repository>
             <id>deployment</id>
-            <url>http://${nexusURL}:8081/repository/studentapp-api-rels/</url>
+            <url>http://${nexusURL}:8081/repository/studentapp-releases/</url>
         </repository>
 	</distributionManagement>
 
