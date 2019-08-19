@@ -130,11 +130,11 @@
     <distributionManagement>
    		<snapshotRepository>
       		<id>deployment</id>
-      		<url>http://${NEXUS_SERVER}:8081/repository/studentapp-api-snaps/</url>
+      		<url>http://${nexusURL}:8081/repository/studentapp-api-snaps/</url>
    		</snapshotRepository>
 		<repository>
             <id>deployment</id>
-            <url>http://${NEXUS_SERVER}:8081/repository/studentapp-api-rels/</url>
+            <url>http://${nexusURL}:8081/repository/studentapp-api-rels/</url>
         </repository>
 	</distributionManagement>
 
