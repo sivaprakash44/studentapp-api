@@ -135,11 +135,11 @@
     <distributionManagement>
    		<snapshotRepository>
       		<id>deployment</id>
-      		<url>http://${nexusURL}:8081/repository/studentapp-snapshots/</url>
+      		<url>http://${nexusIP}:8081/repository/studentapp-snapshots/</url>
    		</snapshotRepository>
 		<repository>
             <id>deployment</id>
-            <url>http://${nexusURL}:8081/repository/studentapp-releases/</url>
+            <url>http://${nexusIP}:8081/repository/studentapp-releases/</url>
         </repository>
 	</distributionManagement>
 
